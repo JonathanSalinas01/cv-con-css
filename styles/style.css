@@ -12,7 +12,8 @@ body{
     text-align: center;
     background-color: #007acc;
     color: white;
-    padding-top: 15px;
+    /*padding-top: 15px;*/
+    padding: 20px;
 }
 
 .foto{
@@ -24,9 +25,31 @@ body{
 .section{
     display: flex;
     justify-content: space-around;
+    margin: 25px;
 }
 
 .article{
     width: 45%;
     background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.footer{
+    background-color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    list-style: none;
+    margin-left: 12px;
+}
+
