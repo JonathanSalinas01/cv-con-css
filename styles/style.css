@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header{
@@ -26,6 +29,8 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 25px;
+    flex: 1;
+    align-items: center;
 }
 
 .article{
